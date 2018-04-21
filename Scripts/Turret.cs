@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour {
 
-	public Transform platform;
+	Vector2[] enemy;
 
 	public float range;
 
-	// Use this for initialization
-	void Start () {
+	public void Init (Transform platform) {
 		transform.position = platform.position;
 	}
 	
