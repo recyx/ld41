@@ -11,16 +11,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96bc776ea2044a544ad9bb3dba53c554, type: 3}
   m_Name: PathTile
   m_EditorClassIdentifier: 
-  top: []
-  topRightOuter: []
-  topRightInner: []
-  right: []
-  rightBottomOuter: []
-  rightBottomInner: []
-  bottom: []
-  bottomLeftOuter: []
-  bottomLeftInner: []
-  left: []
-  leftTopOuter: []
-  leftTopInner: []
-  m_Sprite: {fileID: 0}
+  top:
+  - {fileID: 21300030, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  - {fileID: 21300032, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  topRightOuter:
+  - {fileID: 21300010, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  topRightInner:
+  - {fileID: 21300006, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  right:
+  - {fileID: 21300014, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  - {fileID: 21300024, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  rightBottomOuter:
+  - {fileID: 21300022, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  rightBottomInner:
+  - {fileID: 21300034, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  bottom:
+  - {fileID: 21300002, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  - {fileID: 21300004, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  bottomLeftOuter:
+  - {fileID: 21300020, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  bottomLeftInner:
+  - {fileID: 21300028, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  left:
+  - {fileID: 21300018, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  - {fileID: 21300026, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  leftTopOuter:
+  - {fileID: 21300008, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  leftTopInner:
+  - {fileID: 21300000, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb09d0cbce8f22c49816d39d21cc2789, type: 3}

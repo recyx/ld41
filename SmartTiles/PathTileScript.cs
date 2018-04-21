@@ -25,7 +25,7 @@ public class PathTileScript : TileBase {
 	public override void GetTileData(Vector3Int location, ITilemap tilemap, ref TileData tileData) {
 		tileData.colliderType = Tile.ColliderType.Grid;
 
-		Random.InitState (location.x * 42 + location.y);
+		Random.InitState (("Seed: x: " + location.x * 42 + " - y: " + location.y * 42).GetHashCode());
 		tileData.sprite = top [Random.Range(0, top.Length)];
 
 		//Right
