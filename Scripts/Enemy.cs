@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour {
 
 	GameObject waypoints;
 	Transform[] waypoint;
+	Spawner spawner;
 
 	Vector2 direction;
 
@@ -17,6 +18,7 @@ public class Enemy : MonoBehaviour {
 
 
 	void Start () {
+		spawner = GameObject.Find ("Spawner").GetComponent<Spawner> ();
 		waypoints = GameObject.Find ("Waypoints");
 		waypoint = new Transform[waypoints.transform.childCount];
 
@@ -43,10 +45,18 @@ public class Enemy : MonoBehaviour {
 
 
 		transform.Translate (direction * speed * Time.deltaTime);
-		
+			
 	}
 
 	void End () {
+		spawner.DeleteEnemy (this);
 		Destroy (gameObject);
+	}
+
+	public void Damage (float damage) {
+		health -= damage;
+		if (health <= 0) {
+			End ();
+		}
 	}
 }

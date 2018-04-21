@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1188811832227322}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.419956, y: 5.5897803, z: -0.103515625}
+  m_LocalPosition: {x: -7.5865083, y: -2.62503, z: -0.103515625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  health: 0
+  health: 10
 --- !u!212 &212894925576496952
 SpriteRenderer:
   m_ObjectHideFlags: 1
